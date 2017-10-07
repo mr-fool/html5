@@ -4,24 +4,14 @@
 <head>
     <title>gps</title>
 <script>
-<!-- var gps = navigator.geolocation.getCurrentPosition(
-    
-function (position) {  
-    for (key in position.coords) {
-        document.write(key+': '+ position.coords[key]);
-        document.write ('<br>');
-        }
-    }
-                                                   
-                                                   );
-//-->
+
 function getLoc(){
 
 var gps = navigator.geolocation.getCurrentPosition(
 function(position){
   var latitude = position.coords.latitude;
   var longitude = position.coords.longitude;
-  alert("Your Latitude is: " + latitude + " and your longitude is: " + longitude + "! Have fun!");
+  alert("Latitude is: " + latitude + " and longitude is: " + longitude);
 }
 );
 }
@@ -32,5 +22,6 @@ function(position){
 <div id="geolocation"> 
 <input type="button" id="latlong" class="bigButton" value="GET LOC" onclick="getLoc();"> 
 </div>
+
 </body>
 </html>
