@@ -1,0 +1,17 @@
+body{
+    background-image: url("Aina Sahalin.jpg");
+    background-size:cover;
+}
+h2 {
+    color: green;
+    text-align: center;
+    border: 5px dashed green;
+    cursor: pointer;
+}
+p {
+    color: aqua; 
+}
+li {
+    list-style: none;
+    display: inline-block;
+}
