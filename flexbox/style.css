@@ -1,3 +1,6 @@
+body{
+	margin: 0 px;
+}
 .container {
 	display:flex;
 	flex-wrap: wrap;
@@ -19,4 +22,8 @@ img {
 	width: 450px;
 	height:300px;
 	margin: 10px;
+	transition: all 3s;
+}
+img:hover {
+	transform: scale(1.5);
 }
