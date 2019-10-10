@@ -1,0 +1,4 @@
+:root {
+    --bg: transparent;
+    background-color: var(--bg);
+  }
